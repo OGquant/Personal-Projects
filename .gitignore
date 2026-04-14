@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment & Secrets
+config/.env
+projects/*/config/.env
+
+# Orchestration artifacts (AI agent logs)
+**/.orchestra/
+SKILL.md
+orchestrate.sh
+split_tasks.py
+
+# Agent internal files
+AGENTS.md
+*PLAN.md
+*Plan.md
+GEMINI.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Duplicate project folder (backup)
+projects 2/
